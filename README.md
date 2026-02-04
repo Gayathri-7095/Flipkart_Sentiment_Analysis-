@@ -1,19 +1,19 @@
 # Sentiment Analysis of Real-time Flipkart Product Reviews
 
-## 📌 Project Overview
+##  Project Overview
 This project analyzes real-time customer reviews from Flipkart and classifies them into **Positive** or **Negative** sentiments using Natural Language Processing (NLP) and Machine Learning techniques.
 
-## 🎯 Objective
+##  Objective
 - Classify customer reviews into positive or negative
 - Identify customer pain points from negative reviews
 - Deploy the trained model as a web application
 
-## 🗂 Dataset
+##  Dataset
 - Product: YONEX MAVIS 350 Nylon Shuttle
 - Total Reviews: 8,518
 - Source: Flipkart (pre-scraped dataset provided)
 
-## ⚙️ Technologies Used
+##  Technologies Used
 - Python
 - NLTK
 - Scikit-learn
@@ -21,14 +21,14 @@ This project analyzes real-time customer reviews from Flipkart and classifies th
 - Streamlit
 - AWS EC2
 
-## 🧠 Modeling Approach
+##  Modeling Approach
 - Text preprocessing (cleaning, lemmatization)
 - Feature extraction using TF-IDF
 - Model training with Logistic Regression / SVM
 - Evaluation using F1-Score
 - Hyperparameter tuning using GridSearchCV
 
-## 🌐 Deployment
+##  Deployment
 - Deployed using Streamlit
 - Hosted on AWS EC2
 - Accessible via public IP on port 8501
